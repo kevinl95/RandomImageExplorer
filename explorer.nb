@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10247,        290]
-NotebookOptionsPosition[      9311,        252]
-NotebookOutlinePosition[      9656,        267]
-CellTagsIndexPosition[      9613,        264]
+NotebookDataLength[     10327,        292]
+NotebookOptionsPosition[      9390,        254]
+NotebookOutlinePosition[      9735,        269]
+CellTagsIndexPosition[      9692,        266]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -229,23 +229,25 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Button", "[", 
-  RowBox[{"\"\<Export as .SWF\>\"", ",", 
+  RowBox[{"\"\<Export as .AVI\>\"", ",", 
    RowBox[{"Export", "[", 
     RowBox[{
      RowBox[{"SystemDialogInput", "[", 
       RowBox[{"\"\<FileSave\>\"", ",", "\"\<.avi\>\""}], "]"}], ",", "v", 
      ",", "\"\<AVI\>\""}], "]"}], ",", 
    RowBox[{"Method", "\[Rule]", "\"\<Queued\>\""}]}], "]"}]], "Input",
- CellChangeTimes->{{3.680569603356784*^9, 3.6805696366918535`*^9}}],
+ CellChangeTimes->{{3.680569603356784*^9, 3.6805696366918535`*^9}, {
+  3.6806540504703636`*^9, 3.6806540526231675`*^9}}],
 
 Cell[BoxData[
- ButtonBox["\<\"Export as .SWF\"\>",
+ ButtonBox["\<\"Export as .AVI\"\>",
   Appearance->Automatic,
   ButtonFunction:>Export[
     SystemDialogInput["FileSave", ".avi"], $CellContext`v, "AVI"],
   Evaluator->Automatic,
   Method->"Queued"]], "Output",
- CellChangeTimes->{{3.6805696117587967`*^9, 3.680569638341939*^9}}]
+ CellChangeTimes->{{3.6805696117587967`*^9, 3.680569638341939*^9}, 
+   3.680654056055174*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -277,7 +279,7 @@ Cell[2053, 60, 331, 6, 68, "Text"]
 Cell[CellGroupData[{
 Cell[2421, 71, 99, 1, 70, "Section"],
 Cell[2523, 74, 341, 6, 68, "Text"],
-Cell[2867, 82, 2113, 54, 172, "Input"],
+Cell[2867, 82, 2113, 54, 192, "Input"],
 Cell[4983, 138, 2496, 54, 324, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -287,8 +289,8 @@ Cell[7636, 202, 467, 10, 52, "Input"],
 Cell[8106, 214, 419, 10, 42, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8562, 229, 414, 9, 52, "Input"],
-Cell[8979, 240, 292, 7, 42, "Output"]
+Cell[8562, 229, 467, 10, 52, "Input"],
+Cell[9032, 241, 318, 8, 75, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
